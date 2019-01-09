@@ -1,0 +1,11 @@
+.title {
+  font-family: "Arial Helvetic serif";
+  font-size: 13px;
+  font-weight: 500;
+  color: gray;
+}
+
+.price {
+  color: orange;
+  font-size: 18px; 
+}

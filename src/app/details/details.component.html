@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>Product Detail</head>
+  <h1>Product in detail</h1>
+  <body>
+    <ngb-carousel class="fullsize">
+      <ng-template ngbSlide *ngFor="let image of images" class="template">
+        <img id="image" src="{{image.href}}" alt="carousel">
+      </ng-template>
+    </ngb-carousel>
+  </body>
+</html>
